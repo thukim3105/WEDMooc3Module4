@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="changeImage(); setTabIndex()";>
+    <h1 tabindex="0">Welcome to my website.</h1>
+    <p tabindex="0">Content:</p>
+    <div class="container" tabindex="0" >
+        <img class="images" src="images/reflected_tree.JPG" alt="Image 1">
+        <img class="images" src="images/munising.jpg" alt="Image 2">
+        <img class="images" src="images/pink_blossoms.png" alt="Image 3">
+    </div>
+
+    <div tabindex="0" id="box" onclick="mouseClick()" onmouseover="mouseMove()" onmouseout="mouseOut()">
+        <p tabindex="0">
+            This is a box.
+        </p>
+    </div>
+</body>
+</html>

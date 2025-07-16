@@ -1,0 +1,19 @@
+.images {
+    height: 300px;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 1;
+}
+
+#box {
+    display: flex;
+    height: 30vh;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    font-size: 30px;
+}
